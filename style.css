@@ -1,0 +1,32 @@
+img{
+  height: 200px;
+}
+body{
+  text-align: center;
+}
+.section1{
+  background: linear-gradient (#E1BEE7 0%, #90CAF9 100%);
+  background-repeat: no-repeat;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+        cursor: pointer;
+    color: black
+}
+
+.link:hover{
+    background-color: #00a4ef;
+}
+
+img{
+    transition: trasnform .2s;
+    border: 19px solid #AAAAAA;
+}
+
+img:hover{
+    trasform: scale(0.9);
+}
